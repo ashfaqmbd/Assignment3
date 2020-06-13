@@ -37,5 +37,5 @@
       run: npm install -g surge
        
     - name: Run Surge
-      run: surge ./build ashfaqdemo4.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build ashfaqdemo3.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
